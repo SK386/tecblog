@@ -11757,6 +11757,15 @@ body {
   border-color: #34B9AB;
 }
 
+.btn-outline-purpledark {
+  color: #453960;
+  border-color: #453960;
+}
+.btn-outline-purpledark:hover {
+  color: #fff;
+  background-color: #453960;
+  border-color: #453960;
+}
 
 
 
