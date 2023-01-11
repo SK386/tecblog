@@ -4,12 +4,6 @@ const sequelize = new Sequelize("rcnews", "nodejs", "12345", {
 	dialect:'mysql'
 })
 
-// checking connection
-sequelize.authenticate().then(function(){
-	console.log("connection with database established")
-}).catch(function(error){
-	console.log("an error found "+error)
-})
 
 // sequelize models
 
@@ -52,3 +46,11 @@ const Account = sequelize.define("account",{
 // sync models
 //Account.sync()
 //Post.sync()
+
+// checking connection
+sequelize.authenticate().then(function(){
+	console.log("connection with database established")
+}).catch(function(error){
+	console.log("an error found "+error)
+})
+

@@ -11791,3 +11791,7 @@ input[type=email].bg-greydark, input[type=password].bg-greydark, input[type=text
  color:white;
 }
 
+/*menu*/
+.menu:hover{
+	background-color:#4E4D51;
+}
