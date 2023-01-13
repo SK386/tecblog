@@ -11327,7 +11327,16 @@ font-family: alata,  serif;
 	background-color:#FFFFFF;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+#contp{
+  width:60%;
+  height: 88%;
+	margin: -90vh auto 0 auto;
+  position:relative;
+	background-color:#FFFFFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  z-index: 1;
+}
 .space{
 	margin: 0 5px;
 }
