@@ -1,0 +1,11 @@
+a{
+    color:#34B9AB;
+}
+
+a:hover, a:active{
+    color:#305758;
+}
+
+.page-item{
+    color:#34B9AB;
+}
