@@ -1,39 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Blog Home - Start Bootstrap Template</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="imagens/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="/css/styles.css" rel="stylesheet" />
-        <link rel="stylesheet" href="/css/home.css" />
-        <!-- fonts customize-->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <title>Blog Home - News</title>
+        <%-include("partials/head.html")%>
     </head>
     <body>
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                  <div class="container px-5">
-                      <a class="navbar-brand" href="index.html"><img src="/imagens/logo.png" alt="rcnews logo" width="25%"></a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item menu"><a class="nav-link" href="/">Home</a></li>
-                            <li class="nav-item menu"><a class="nav-link" href="/sobre">Sobre</a></li>
-                            <li class="nav-item menu"><a class="nav-link" href="/cripto">Criptomoedas</a></li>
-                            <li class="nav-item menu"><a class="nav-link" href="/planos">Economia</a></li>
-                            <li class="nav-item menu"><a class="nav-link" href="/tech">Tecnologia</a></li>
-                          </ul>
-                          <button class="btn btn-outline-blue space"  onclick="window.location.href='/planos'">Assinar</button>
-                          <button class="btn btn-outline-light space" onclick="window.location.href='/login'">Login</button>
-                      </div>
-                  </div>
-              </nav>
-
+        <%-include("partials/nav.html")%>
         <!-- Page header with logo and tagline-->
         <header class="py-5 bg-light border-bottom mb-4">
             <div class="container">
@@ -109,13 +82,13 @@
                     <nav aria-label="Pagination">
                         <hr class="my-0" />
                         <ul class="pagination justify-content-center my-4">
-                            <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Newer</a></li>
+                            <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Recente</a></li>
                             <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>
                             <li class="page-item"><a class="page-link" href="#!">2</a></li>
                             <li class="page-item"><a class="page-link" href="#!">3</a></li>
                             <li class="page-item disabled"><a class="page-link" href="#!">...</a></li>
                             <li class="page-item"><a class="page-link" href="#!">15</a></li>
-                            <li class="page-item"><a class="page-link" href="#!">Older</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">Antigo</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -144,14 +117,14 @@
                                     <ul class="list-unstyled mb-0">
                                         <li><a href="#!">Open Source</a></li>
                                         <li><a href="#!">Profissional</a></li>
-                                        <li><a href="#!">Freebies</a></li>
+                                        <li><a href="#!">Empresarial</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-sm-6">
                                     <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">JavaScript</a></li>
-                                        <li><a href="#!">CSS</a></li>
-                                        <li><a href="#!">Tutorials</a></li>
+                                        <li><a href="#!">Economia Global</a></li>
+                                        <li><a href="#!">Criptomoedas</a></li>
+                                        <li><a href="#!">Agorismo</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -166,18 +139,7 @@
             </div>
         </div>
         <!-- Footer-->
-        <footer class="py-4 bg-dark mt-auto">
-        		<div class="container-fluid px-4">
-                <div class="d-flex align-items-center justify-content-between small">
-                      <div class="text-light">Copyright &copy; RC FINTECH NEWS 2022</div>
-                            <div>
-                                  <a href="#">Privacy Policy</a>
-                                  &middot;
-                                  <a href="#">Terms &amp; Conditions</a>
-                              </div>
-                          </div>
-                      </div>
-                  </footer>
+        <%-include("partials/footer.html")%>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
